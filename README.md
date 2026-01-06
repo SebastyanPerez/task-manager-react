@@ -35,7 +35,7 @@ Durante el desarrollo de este proyecto, apliqué los siguientes conceptos:
 
 1. Clona el repositorio:
    ```bash
-   git clone https://github.com/tu-usuario/task-manager-react.git
+   git clone https://github.com/SebastyanPerez/task-manager-react.git
    ```
 2. Instala las dependencias:
    ```bash
@@ -47,4 +47,4 @@ Durante el desarrollo de este proyecto, apliqué los siguientes conceptos:
    ```
 
 ---
-⌨️ con ❤️ por [Tu Nombre/Usuario]
+⌨️ con ❤️ por [Sebastian Perez/Akise]
