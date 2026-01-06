@@ -1,16 +1,50 @@
-# React + Vite
+# 📝 Task Manager - React
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Un gestor de tareas moderno y funcional construido con **React + Vite**. Este proyecto fue desarrollado como parte de mi proceso de aprendizaje de React, enfocándome en buenas prácticas de la industria, manejo de estado inmutable y persistencia de datos.
 
-Currently, two official plugins are available:
+## 🚀 Funcionalidades
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- **CRUD Completo:** Crear, Leer, Actualizar y Eliminar tareas.
+- **Persistencia:** Las tareas se guardan automáticamente en el `localStorage` del navegador.
+- **Filtrado Inteligente:** Visualiza todas las tareas, solo las pendientes o las completadas.
+- **Estadísticas en Tiempo Real:** Gráficos dinámicos con Chart.js para visualizar el progreso.
+- **Interfaz Moderna:** Diseño oscuro (Dark Mode) con estilos CSS puros y variables.
+- **UX Optimizada:** 
+  - Edición con doble clic.
+  - Guardado automático al perder el foco (onBlur) o presionar Enter.
+  - Validaciones para evitar tareas vacías.
 
-## React Compiler
+## 🛠️ Tecnologías Usadas
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- **React 18** (Hooks: `useState`, `useEffect`, Custom Hooks)
+- **Chart.js & React-Chartjs-2** (Visualización de datos)
+- **Vite** (Build Tool ultra rápido)
+- **JavaScript (ES6+)**
+- **CSS3** (Variables y Flexbox)
 
-## Expanding the ESLint configuration
+## 📖 Aprendizajes Clave
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Durante el desarrollo de este proyecto, apliqué los siguientes conceptos:
+1. **Estado Derivado:** Optimizando el filtrado de tareas sin duplicar el estado.
+2. **Inmutabilidad:** Uso correcto de `.map()`, `.filter()` y el operador spread `[...]` para actualizar estados.
+3. **Elevación de Estado (Lifting State Up):** Comunicación efectiva entre componentes padres e hijos.
+4. **Custom Hooks:** Creación de un hook reutilizable para manejar LocalStorage.
+5. **Conventional Commits:** Uso de estándares para mensajes de Git.
+
+## 💻 Instalación
+
+1. Clona el repositorio:
+   ```bash
+   git clone https://github.com/tu-usuario/task-manager-react.git
+   ```
+2. Instala las dependencias:
+   ```bash
+   npm install
+   ```
+3. Inicia el servidor de desarrollo:
+   ```bash
+   npm run dev
+   ```
+
+---
+⌨️ con ❤️ por [Tu Nombre/Usuario]
